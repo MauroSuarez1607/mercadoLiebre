@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Raleway:wght@400;700&family=Roboto&family=Work+Sans:wght@300;400;700&display=swap');
+
+:root {
+    --tipografia : 'Roboto' , sans-serif;
+}
+
+.home header.encabezado {
+    font-family: var(--tipografia);
+    font-size: 12px;
+    background-color: #eac926;
+}
+
+.home div.logo img {
+    width: 119px;
+    margin-left: 18px;
+    margin-bottom: 12px;
+}
+
+.home header p {
+    text-align: center;
+}
+
+.home nav.menu ul a {
+    color: black;
+    text-decoration-line: none ;
+}
+
+.home nav.menu ul{
+    list-style: none;    
+    padding-left: 0px;
+}
+
+.home nav.opciones ul a {
+    color: black;
+    text-decoration-line: none ;
+}
+
+.home nav.opciones ul{
+    list-style: none;
+    padding-left: 0px;
+}
+
+.home a.menu-bar {
+    display: inline-block;
+    background-color: #03264c;
+    color: #ebebeb;
+    width: 37px;
+    height: 29px;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 5px;
+    margin-left: 128px;
+    margin-bottom: 23px;
+}
+
+.home div.banner img {
+    width: 600px;
+}
+
+.home footer.pie-pagina {
+    font-family: var(--tipografia);
+    font-size: 12px;
+}
+
+.home footer section a {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.home footer section h5 {
+    margin-top: 5px;
+    font-size: 13px;
+    color: #666;
+}
+
+.home footer section p {
+    margin-top: -19px;
+    color: #666;
+}
+
+.home footer section.op1 {
+    display: inline-block;
+    width: 217px;
+    height: 159px;
+    font-size: 12px;
+    text-align: center;
+    margin-left: 39px;
+}
+
+.home footer section.op2 {
+    display: inline-block;
+    width: 217px;
+    height: 159px;
+    font-size: 12px;
+    text-align: center;
+    margin-left: 39px;
+}
+
+.home footer section.op3 {
+    display: inline-block;
+    width: 217px;
+    height: 159px;
+    font-size: 12px;
+    text-align: center;
+    margin-left: 39px;
+}
