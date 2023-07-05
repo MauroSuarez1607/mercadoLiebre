@@ -30,9 +30,11 @@ ul {
     list-style: none;
 }
 
+/* HOME */
+
 .home_header {
     background-color: var(--colorAmarillo);
-    padding: 30px 10px 20px;
+    padding: 30px 0px 20px;
 }
 
 .home_header_div-img {
@@ -70,7 +72,6 @@ ul {
 
 .home_header_nav-menu {
     margin-top: 20px;
-    margin-left: -9px;
 }
 
 .home_header_nav-menu ul {
@@ -85,7 +86,6 @@ ul {
 
 .home_header_nav-ops {
     margin-top: 20px;
-    margin-left: -9px;
 }
 
 .home_header_nav-ops ul {
@@ -117,9 +117,378 @@ ul {
     padding: 10px 13px;
 }
 
-/*.home_header_div-banner {}*/
+.home_header_div-banner {
+    display: flex;
+}
 
-/*.home_header_div-banner-home {}*/
+.home_header_div-banner-home {
+    width: 100%;
+}
+
+/* MAIN */
+
+.home_main {
+    background-color: var(--colorGrisClaro);
+    text-align: center;
+    width: 90%;
+}
+
+.home_main_visita {}
+
+.home_main_visita_h5 {
+    color: var(--colorGrisOscuro);
+    font-size: 20px;
+    text-align: left;
+    margin-left: 15px;
+    padding-top: 15px;
+}
+
+.home_main_visita_article1 {
+    border-top: solid 1px var(--colorGrisClaro);
+    margin-bottom: 10px;
+    padding: 15px;
+}
+
+.home_main_visita_article1-img {
+    width: 100%;
+}
+
+.home_main_visita_article1-truck {
+    border: solid 1px var(--colorVerde);
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: start;
+}
+
+.home_main_visita_article1-truck i {
+    margin-top: 10px;
+    color: var(--colorVerde);
+}
+
+.home_main_visita_article1-precio {
+    display: flex;
+    align-items: start;
+}
+
+.home_main_visita_article1-descuento {
+    display: flex;
+    align-items: start;
+    color: var(--colorVerde);
+}
+
+.home_main_visita_article1-nombre {
+    margin-top: 20px;
+    display: flex;
+    align-items: start;
+    color: var(--colorGrisOscuro);
+}
+
+.home_main_visita_article2 {
+    border-top: solid 1px var(--colorGrisClaro) ;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+
+.home_main_visita_article2-img {
+    width: 100%;
+}
+
+.home_main_visita_article2-truck {
+    border: solid 1px var(--colorVerde);
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: start;
+}
+
+.home_main_visita_article2-truck i {
+    margin-top: 10px;
+    color: var(--colorVerde);
+}
+
+.home_main_visita_article2-precio {
+    display: flex;
+    align-items: start;
+}
+
+.home_main_visita_article2-descuento {
+    display: flex;
+    align-items: start;
+    color: var(--colorVerde);
+}
+
+.home_main_visita_article2-nombre {
+    margin-top: 20px;
+    display: flex;
+    align-items: start;
+    color: var(--colorGrisOscuro);
+}
+
+.home_main_visita_article3 {
+    border-top: solid 1px var(--colorGrisClaro) ;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+
+.home_main_visita_article3-img {
+    width: 100%;
+}
+
+.home_main_visita_article3-truck {
+    border: solid 1px var(--colorVerde);
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: start;
+}
+
+.home_main_visita_article3-truck i {
+    margin-top: 10px;
+    color: var(--colorVerde);
+}
+
+.home_main_visita_article3-precio {
+    display: flex;
+    align-items: start;
+}
+
+.home_main_visita_article3-descuento {
+    display: flex;
+    align-items: start;
+    color: var(--colorVerde);
+}
+
+.home_main_visita_article3-nombre {
+    margin-top: 20px;
+    display: flex;
+    align-items: start;
+    color: var(--colorGrisOscuro);
+}
+
+.home_main_visita_article4 {
+    border-top: solid 1px var(--colorGrisClaro) ;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+
+.home_main_visita_article4-img {
+    width: 100%;
+}
+
+.home_main_visita_article4-truck {
+    border: solid 1px var(--colorVerde);
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: start;
+}
+
+.home_main_visita_article4-truck i {
+    margin-top: 10px;
+    color: var(--colorVerde);
+}
+
+.home_main_visita_article4-precio {
+    display: flex;
+    align-items: start;
+}
+
+.home_main_visita_article4-descuento {
+    display: flex;
+    align-items: start;
+    color: var(--colorVerde);
+}
+
+.home_main_visita_article4-nombre {
+    margin-top: 20px;
+    display: flex;
+    align-items: start;
+    color: var(--colorGrisOscuro);
+}
+
+.home_main_oferta {}
+
+.home_main_oferta_h5 {
+    color: var(--colorGrisOscuro);
+    font-size: 20px;
+    text-align: left;
+    margin-left: 15px;
+}
+
+.home_main_oferta_article1 {
+    border-top: solid 1px var(--colorGrisClaro) ;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+
+.home_main_oferta_article1-img {
+    width: 100%;
+}
+
+.home_main_oferta_article1-truck {
+    border: solid 1px var(--colorVerde);
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: start;
+}
+
+.home_main_oferta_article1-truck i {
+    margin-top: 10px;
+    color: var(--colorVerde);
+}
+
+.home_main_oferta_article1-precio {
+    display: flex;
+    align-items: start;
+}
+
+.home_main_oferta_article1-descuento {
+    display: flex;
+    align-items: start;
+    color: var(--colorVerde);
+}
+
+.home_main_oferta_article1-nombre {
+    margin-top: 20px;
+    display: flex;
+    align-items: start;
+    color: var(--colorGrisOscuro);
+}
+
+.home_main_oferta_article2 {
+    border-top: solid 1px var(--colorGrisClaro) ;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+
+.home_main_oferta_article2-img {
+    width: 100%;
+}
+
+.home_main_oferta_article2-truck {
+    border: solid 1px var(--colorVerde);
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: start;
+}
+
+.home_main_oferta_article2-truck i {
+    margin-top: 10px;
+    color: var(--colorVerde);
+}
+
+.home_main_oferta_article2-precio {
+    display: flex;
+    align-items: start;
+}
+
+.home_main_oferta_article2-descuento {
+    display: flex;
+    align-items: start;
+    color: var(--colorVerde);
+}
+
+.home_main_oferta_article2-nombre {
+    margin-top: 20px;
+    display: flex;
+    align-items: start;
+    color: var(--colorGrisOscuro);
+}
+
+.home_main_oferta_article3 {
+    border-top: solid 1px var(--colorGrisClaro) ;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+
+.home_main_oferta_article3-img {
+    width: 100%;
+}
+
+.home_main_oferta_article3-truck {
+    border: solid 1px var(--colorVerde);
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: start;
+}
+
+.home_main_oferta_article3-truck i {
+    margin-top: 10px;
+    color: var(--colorVerde);
+}
+
+.home_main_oferta_article3-precio {
+    display: flex;
+    align-items: start;
+}
+
+.home_main_oferta_article3-descuento {
+    display: flex;
+    align-items: start;
+    color: var(--colorVerde);
+}
+
+.home_main_oferta_article3-nombre {
+    margin-top: 20px;
+    display: flex;
+    align-items: start;
+    color: var(--colorGrisOscuro);
+}
+
+.home_main_oferta_article4 {
+    border-top: solid 1px var(--colorGrisClaro) ;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+
+.home_main_oferta_article4-img {
+    width: 100%;
+}
+
+.home_main_oferta_article4-truck {
+    border: solid 1px var(--colorVerde);
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: start;
+}
+
+.home_main_oferta_article4-truck i {
+    margin-top: 10px;
+    color: var(--colorVerde);
+}
+
+.home_main_oferta_article4-precio {
+    display: flex;
+    align-items: start;
+}
+
+.home_main_oferta_article4-descuento {
+    display: flex;
+    align-items: start;
+    color: var(--colorVerde);
+}
+
+.home_main_oferta_article4-nombre {
+    margin-top: 20px;
+    display: flex;
+    align-items: start;
+    color: var(--colorGrisOscuro);
+}
+
+/* FOOTER */
 
 .home_footer {
     margin-top: 70px;
@@ -218,4 +587,12 @@ ul {
     font-size: 11px;
     margin-bottom: 20px;
     margin-left: 20px;
+}
+
+@media (min-width: 361px) {
+
+}
+
+@media (min-width: 769px) {
+    
 }
