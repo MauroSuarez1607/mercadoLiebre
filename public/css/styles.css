@@ -34,7 +34,7 @@ ul {
 
 .home_header {
     background-color: var(--colorAmarillo);
-    padding: 30px 0px 20px;
+    padding: 30px 0px 0px;
 }
 
 .home_header_div-img {
@@ -51,16 +51,10 @@ ul {
 /*.home_header_form {}*/
 
 .home_header_form_input {
-    display: block;
     margin-left: 11px;
 }
 
-.home_header_form_button {
-    margin-top: 2px;
-    border-radius: 3px;
-    padding: 2px;
-    margin-left: 11px;
-}
+/*.home_header_form_button {}*/
 
 /*.home_header_form_button i {}*/
 
@@ -71,36 +65,26 @@ ul {
 }
 
 .home_header_nav-menu {
-    margin-top: 20px;
+    display: none;
 }
 
-.home_header_nav-menu ul {
-    list-style: none;
-    padding: 0;
-    font-size: 12px;
-}
+/*.home_header_nav-menu ul {}*/
 
 /*.home_header_nav-menu ul li{}*/
 
 /*.home_header_nav-menu ul li a{}*/
 
 .home_header_nav-ops {
-    margin-top: 20px;
+    display: none;
 }
 
-.home_header_nav-ops ul {
-    list-style: none;
-    padding: 0;
-    font-size: 12px;
-}
+/*.home_header_nav-ops ul {}*/
 
 /*.home_header_nav-ops ul li{}*/
 
 /*.home_header_nav-ops ul li a{}*/
 
-.home_header_nav-ops ul li a i {
-    margin-left: 7px;
-}
+/*.home_header_nav-ops ul li a i {}*/
 
 .home_header_div-bars {
     text-align: center;
@@ -130,14 +114,15 @@ ul {
 .home_main {
     background-color: var(--colorGrisClaro);
     text-align: center;
-    width: 90%;
+    width: 100%;
+    padding-bottom: 10px;
 }
 
 .home_main_visita {}
 
 .home_main_visita_h5 {
     color: var(--colorGrisOscuro);
-    font-size: 20px;
+    font-size: 25px;
     text-align: left;
     margin-left: 15px;
     padding-top: 15px;
@@ -145,12 +130,14 @@ ul {
 
 .home_main_visita_article1 {
     border-top: solid 1px var(--colorGrisClaro);
-    margin-bottom: 10px;
     padding: 15px;
+    background-color: white;
+    margin: 10px;
 }
 
 .home_main_visita_article1-img {
     width: 100%;
+    border-bottom: solid 1px #ebebeb;
 }
 
 .home_main_visita_article1-truck {
@@ -179,20 +166,19 @@ ul {
 }
 
 .home_main_visita_article1-nombre {
-    margin-top: 20px;
-    display: flex;
-    align-items: start;
-    color: var(--colorGrisOscuro);
+   display: none;
 }
 
 .home_main_visita_article2 {
-    border-top: solid 1px var(--colorGrisClaro) ;
-    margin-bottom: 10px;
+    border-top: solid 1px var(--colorGrisClaro);
     padding: 15px;
+    background-color: white;
+    margin: 10px;
 }
 
 .home_main_visita_article2-img {
     width: 100%;
+    border-bottom: solid 1px #ebebeb;
 }
 
 .home_main_visita_article2-truck {
@@ -221,20 +207,19 @@ ul {
 }
 
 .home_main_visita_article2-nombre {
-    margin-top: 20px;
-    display: flex;
-    align-items: start;
-    color: var(--colorGrisOscuro);
+   display: none;
 }
 
 .home_main_visita_article3 {
-    border-top: solid 1px var(--colorGrisClaro) ;
-    margin-bottom: 10px;
+    border-top: solid 1px var(--colorGrisClaro);
     padding: 15px;
+    background-color: white;
+    margin: 10px;
 }
 
 .home_main_visita_article3-img {
     width: 100%;
+    border-bottom: solid 1px #ebebeb;
 }
 
 .home_main_visita_article3-truck {
@@ -263,20 +248,19 @@ ul {
 }
 
 .home_main_visita_article3-nombre {
-    margin-top: 20px;
-    display: flex;
-    align-items: start;
-    color: var(--colorGrisOscuro);
+   display: none;
 }
 
 .home_main_visita_article4 {
-    border-top: solid 1px var(--colorGrisClaro) ;
-    margin-bottom: 10px;
+    border-top: solid 1px var(--colorGrisClaro);
     padding: 15px;
+    background-color: white;
+    margin: 10px;
 }
 
 .home_main_visita_article4-img {
     width: 100%;
+    border-bottom: solid 1px #ebebeb;
 }
 
 .home_main_visita_article4-truck {
@@ -305,29 +289,28 @@ ul {
 }
 
 .home_main_visita_article4-nombre {
-    margin-top: 20px;
-    display: flex;
-    align-items: start;
-    color: var(--colorGrisOscuro);
+   display: none;
 }
 
 .home_main_oferta {}
 
 .home_main_oferta_h5 {
     color: var(--colorGrisOscuro);
-    font-size: 20px;
+    font-size: 25px;
     text-align: left;
     margin-left: 15px;
 }
 
 .home_main_oferta_article1 {
-    border-top: solid 1px var(--colorGrisClaro) ;
-    margin-bottom: 10px;
+    border-top: solid 1px var(--colorGrisClaro);
     padding: 15px;
+    background-color: white;
+    margin: 10px;
 }
 
 .home_main_oferta_article1-img {
     width: 100%;
+    border-bottom: solid 1px #ebebeb;
 }
 
 .home_main_oferta_article1-truck {
@@ -356,20 +339,19 @@ ul {
 }
 
 .home_main_oferta_article1-nombre {
-    margin-top: 20px;
-    display: flex;
-    align-items: start;
-    color: var(--colorGrisOscuro);
+   display: none;
 }
 
 .home_main_oferta_article2 {
-    border-top: solid 1px var(--colorGrisClaro) ;
-    margin-bottom: 10px;
+    border-top: solid 1px var(--colorGrisClaro);
     padding: 15px;
+    background-color: white;
+    margin: 10px;
 }
 
 .home_main_oferta_article2-img {
     width: 100%;
+    border-bottom: solid 1px #ebebeb;
 }
 
 .home_main_oferta_article2-truck {
@@ -398,20 +380,19 @@ ul {
 }
 
 .home_main_oferta_article2-nombre {
-    margin-top: 20px;
-    display: flex;
-    align-items: start;
-    color: var(--colorGrisOscuro);
+   display: none;
 }
 
 .home_main_oferta_article3 {
-    border-top: solid 1px var(--colorGrisClaro) ;
-    margin-bottom: 10px;
+    border-top: solid 1px var(--colorGrisClaro);
     padding: 15px;
+    background-color: white;
+    margin: 10px;
 }
 
 .home_main_oferta_article3-img {
     width: 100%;
+    border-bottom: solid 1px #ebebeb;
 }
 
 .home_main_oferta_article3-truck {
@@ -440,20 +421,19 @@ ul {
 }
 
 .home_main_oferta_article3-nombre {
-    margin-top: 20px;
-    display: flex;
-    align-items: start;
-    color: var(--colorGrisOscuro);
+   display: none;
 }
 
 .home_main_oferta_article4 {
-    border-top: solid 1px var(--colorGrisClaro) ;
-    margin-bottom: 10px;
+    border-top: solid 1px var(--colorGrisClaro);
     padding: 15px;
+    background-color: white;
+    margin: 10px;
 }
 
 .home_main_oferta_article4-img {
     width: 100%;
+    border-bottom: solid 1px #ebebeb;
 }
 
 .home_main_oferta_article4-truck {
@@ -482,10 +462,7 @@ ul {
 }
 
 .home_main_oferta_article4-nombre {
-    margin-top: 20px;
-    display: flex;
-    align-items: start;
-    color: var(--colorGrisOscuro);
+   display: none;
 }
 
 /* FOOTER */
@@ -590,9 +567,240 @@ ul {
 }
 
 @media (min-width: 361px) {
+    /* HEADER */
+
+    .home_header_div-img {
+        width: 235px;
+        margin-left: 11px;
+        margin-bottom: 14px;
+        margin-top: 0px;
+    }
+    
+    .home_header_div-img-logo {
+        width: 100%;
+    }
+
+    .home_header_nav-menu {
+        display: flex;
+        margin-top: 20px;
+    }
+
+    .home_header_nav-menu ul {
+        list-style: none;
+        padding: 0;
+        font-size: 12px;
+    }
+    
+    .home_header_nav-ops {
+        display: flex;
+    }
+    
+    .home_header_nav-ops ul {
+        list-style: none;
+        padding: 0;
+        font-size: 12px;
+    }
+    
+    .home_header_nav-ops ul li a i {
+        margin-left: 7px;
+    }
+
+    .home_header_div-bars {
+        display: none;
+    }
+
+    /* MAIN */
+
+    .home_main_visita_article1 {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        margin: 40px;
+    }
+
+    .home_main_visita_article1-nombre {
+        margin-top: 20px;
+        display: flex;
+        align-items: start;
+        color: var(--colorGrisOscuro);
+    }
+
+    .home_main_visita_article2 {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        margin: 40px;
+    }
+
+    .home_main_visita_article2-nombre {
+        margin-top: 20px;
+        display: flex;
+        align-items: start;
+        color: var(--colorGrisOscuro);
+    }
+
+    .home_main_visita_article3 {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        margin: 40px;
+    }
+
+    .home_main_visita_article3-nombre {
+        margin-top: 20px;
+        display: flex;
+        align-items: start;
+        color: var(--colorGrisOscuro);
+    }
+
+    .home_main_visita_article4 {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        margin: 40px;
+    }
+
+    .home_main_visita_article4-nombre {
+        margin-top: 20px;
+        display: flex;
+        align-items: start;
+        color: var(--colorGrisOscuro);
+    }
+
+    .home_main_oferta_article1 {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        margin: 40px;
+    }
+
+    .home_main_oferta_article1-nombre {
+        margin-top: 20px;
+        display: flex;
+        align-items: start;
+        color: var(--colorGrisOscuro);
+    }
+
+    .home_main_oferta_article2 {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        margin: 40px;
+    }
+
+    .home_main_oferta_article2-nombre {
+        margin-top: 20px;
+        display: flex;
+        align-items: start;
+        color: var(--colorGrisOscuro);
+    }
+
+    .home_main_oferta_article3 {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        margin: 40px;
+    }
+
+    .home_main_oferta_article3-nombre {
+        margin-top: 20px;
+        display: flex;
+        align-items: start;
+        color: var(--colorGrisOscuro);
+    }
+
+    .home_main_oferta_article4 {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        margin: 40px;
+    }
+    
+    .home_main_oferta_article4-nombre {
+        margin-top: 20px;
+        display: flex;
+        align-items: start;
+        color: var(--colorGrisOscuro);
+    }
 
 }
 
 @media (min-width: 769px) {
+    /* HEADER */
+
+    .home_header_div-img {
+        width: 235px;
+        margin-left: 11px;
+        margin-bottom: 14px;
+        margin-top: 0px;
+    }
+    
+    .home_header_div-img-logo {
+        width: 100%;
+    }
+
+    .home_header_nav-menu {
+        display: flex;
+        margin-top: 20px;
+    }
+    
+    .home_header_nav-menu ul {
+        list-style: none;
+        padding: 0;
+        font-size: 12px;
+    }
+    
+    .home_header_nav-ops {
+        display: flex;
+    }
+    
+    .home_header_nav-ops ul {
+        list-style: none;
+        padding: 0;
+        font-size: 12px;
+    }
+    
+    .home_header_nav-ops ul li a i {
+        margin-left: 7px;
+    }
+
+    .home_header_div-bars {
+        display: none;
+    }
+
+    /* MAIN */
+
+    .home_main_visita_article1-nombre {
+        margin-top: 20px;
+        display: flex;
+        align-items: start;
+        color: var(--colorGrisOscuro);
+    }
+    .home_main_visita_article2-nombre {
+        margin-top: 20px;
+        display: flex;
+        align-items: start;
+        color: var(--colorGrisOscuro);
+    }
+    .home_main_visita_article3-nombre {
+        margin-top: 20px;
+        display: flex;
+        align-items: start;
+        color: var(--colorGrisOscuro);
+    }
+    .home_main_visita_article4-nombre {
+        margin-top: 20px;
+        display: flex;
+        align-items: start;
+        color: var(--colorGrisOscuro);
+    }
+    .home_main_oferta_article1-nombre {
+        margin-top: 20px;
+        display: flex;
+        align-items: start;
+        color: var(--colorGrisOscuro);
+    }
+    .home_main_oferta_article2-nombre {
+        margin-top: 20px;
+        display: flex;
+        align-items: start;
+        color: var(--colorGrisOscuro);
+    }
+    .home_main_oferta_article3-nombre {
+        margin-top: 20px;
+        display: flex;
+        align-items: start;
+        color: var(--colorGrisOscuro);
+    }
+    .home_main_oferta_article4-nombre {
+        margin-top: 20px;
+        display: flex;
+        align-items: start;
+        color: var(--colorGrisOscuro);
+    }
     
 }
