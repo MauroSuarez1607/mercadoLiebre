@@ -118,7 +118,7 @@ ul {
     padding-bottom: 10px;
 }
 
-.home_main_visita {}
+/*.home_main_visita {}*/
 
 .home_main_visita_h5 {
     color: var(--colorGrisOscuro);
@@ -292,7 +292,7 @@ ul {
    display: none;
 }
 
-.home_main_oferta {}
+/*.home_main_oferta {}*/
 
 .home_main_oferta_h5 {
     color: var(--colorGrisOscuro);
