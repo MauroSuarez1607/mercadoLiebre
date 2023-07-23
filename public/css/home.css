@@ -1,0 +1,82 @@
+.home_main {
+    background-color: var(--colorGrisClaro);
+}
+  
+.home_main_section {
+    margin-bottom: 20px;
+}
+  
+.home_main_section_titulo {
+    display: block;
+    color: var(--colorGrisOscuro);
+    padding: 10px;
+    width: 100%;
+}
+  
+.home_main_section_article {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    background-color: white;
+    padding: 10px;
+    border-top: solid 1px var(--colorGrisClaro);
+}
+
+.home_main_section_article-img {
+    width: 100%;
+    border-bottom: solid 1px var(--colorGrisClaro);
+}
+  
+.home_main_section_article-truck {
+    margin-top: auto;
+    margin-left: auto;
+    border-radius: 50%;
+    width: 30px;
+    border: solid 1px var(--colorVerde);
+    height: 30px;
+    padding: 5px;
+}
+
+.home_main_section_article-truck i {
+    
+color: var(--colorVerde);
+}
+  
+.box_art {
+    display: flex;
+    align-items: center;
+}
+  
+.home_main_section_article-precio {
+    width: 30%;
+    font-weight: bold;
+}
+  
+.home_main_section_article-descuento {
+    width: 70%;
+    color: var(--colorVerde);
+}
+  
+.home_main_section_article-nombre {
+    margin: 10px 0 0;
+    color: var(--colorGrisOscuro);
+    font-size: 13px;
+}
+  
+@media (min-width: 768px) {
+  
+    .home_main_section {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    .home_main_section_article {
+      flex: 0 0 50%; 
+    }
+}
+  
+@media (min-width: 1024px) {
+    .home_main_section_article {
+      flex: 0 0 25%;
+    }
+}

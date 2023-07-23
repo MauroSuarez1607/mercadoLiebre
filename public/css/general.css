@@ -1,0 +1,16 @@
+* {
+    font-family: var(--tipografia);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}  
+  
+a {
+    color: var(--colorGrisOscuro);
+    /* text-decoration: none; */
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}

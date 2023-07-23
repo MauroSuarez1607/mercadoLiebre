@@ -1,0 +1,14 @@
+:root {
+    --tipografia : 'Roboto' , sans-serif;
+    --colorAmarillo : #eac926;
+    --colorAzul : #03264c;
+    --colorCeleste : #1259c3;
+    --colorGrisOscuro : #666;
+    --colorGrisClaro : #ebebeb;
+    --colorVerde : #39b54a;
+    --tamañoCuerpoDeTexto : 12px;
+    --tamañoTitulares : 24px;
+    --tamañoPrecios : 18px;
+    --tamañoDescuentos : 16px;
+    --tamañoDescripciones : 16px;
+}
