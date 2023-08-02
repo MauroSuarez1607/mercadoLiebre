@@ -1,7 +1,7 @@
 .login_main {
     background-color: var(--colorGrisClaro);
-    width: 90%;
-    margin: 0 auto;
+    width: 50%;
+    margin: 10px auto;
     padding: 20px;
 }
 
@@ -40,18 +40,22 @@ input[type="submit"] {
     border: none;
     border-radius: 5px;
     margin: 5px;
-    width: 100%;
+    width: 50%;
+}
+
+input[type="submit"]:hover {
+    background-color: #0022AA;
 }
 
 @media (min-width: 768px) {
     .register_main {
-      width: 80%;
+      width: 65%;
     }
 }
   
 @media (min-width: 1024px) {
     .register_main {
-      width: 70%;
+      width: 50%;
     }
 }
   
